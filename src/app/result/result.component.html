@@ -1,0 +1,6 @@
+<!-- src/app/result/result.component.html -->
+<div *ngIf="amount !== null && convertedAmount !== null">
+    <p>Original Amount: {{ amount | number:'1.2-2' }} USD</p>
+    <p>Converted Amount: {{ convertedAmount | number:'1.2-2' }} INR</p>
+  </div>
+  
